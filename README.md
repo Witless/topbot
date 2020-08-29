@@ -77,7 +77,7 @@ Any kind of addition/help/PR is highly welcomed <3
 
 Current contributors:
 
-[Serafin](https://github.com/SerafinDelfin/modmail-refachero) - They made the most part at /commands while doing it they challenged themselves to use the lesser if and else statements as possible
+[Serafin](https://github.com/SerafinDelfin/) - They made the most part at /commands while doing it they challenged themselves to use the lesser if and else statements as possible
 
 ## License
 
