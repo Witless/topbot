@@ -66,7 +66,6 @@ This bot can work alongside a CRUD REST API, you can find it [here](https://gith
 By now, you must generate the tokens manually and add them to a HASH called "tokens" in which each Key (the token) must have the Server ID as it's Value
 
 ```
----------------
 |__tokens (Hash Name)
    |__token (Key must be the token)
    |__serverID (Value must be the Server ID attached to that token)
