@@ -60,9 +60,25 @@ Now that everything is set up, let's run our bot by typing in the root directory
 node index.js
 ```
 
+## API
+
+This bot can work alongside a CRUD REST API, you can find it [here](https://github.com/Witless/topbot-rest-api)
+By now, you must generate the tokens manually and add them to a HASH called "tokens" in which each Key (the token) must have the Server ID as it's Value
+
+```
+---------------
+|__tokens (Hash Name)
+   |__token (Key must be the token)
+   |__serverID (Value must be the Server ID attached to that token)
+```
+
 ## Contributing
 
 Any kind of addition/help/PR is highly welcomed <3
+
+Current contributors:
+
+[Serafin](https://github.com/SerafinDelfin/modmail-refachero) - They made the most part at /commands while doing it they challenged themselves to use the lesser if and else statements as possible
 
 ## License
 
