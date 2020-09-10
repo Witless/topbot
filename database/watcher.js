@@ -57,9 +57,11 @@ watcher = async (conn, client, message_embed) => {
 
                 //DISCORD STUFF
 
-                let stringToSend = "";
-                for (let i = 0; i < sortable.length; i++) {
-                    stringToSend += "\n<@" + sortable[i][0] + "> > " + sortable[i][1] + "\n"
+								let toSend = [];
+								let i = 0;
+                while ((toSend.join("\n\n").length + ("<@" + sortable[i][0] + "> > " + sortable[i][1]).length) <= 2048) {
+										toSend.push("<@" + sortable[i][0] + "> > " + sortable[i][1]);
+										i++;
                 }
 
                 const embed = new message_embed()
@@ -74,7 +76,7 @@ watcher = async (conn, client, message_embed) => {
 
                             .setTitle(embed_title)
                             .setColor(embed_color)
-                            .setDescription(stringToSend)
+                            .setDescription(toSend.join("\n\n"))
                             .setFooter(id);
 
                         msg.edit(embed)
