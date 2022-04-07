@@ -8,7 +8,7 @@ Discord bot to make any top, sorted from highest to lowest score
 
 ## Why?
 
-I mean, it's a weird concept that might not be useful at all, but I learned Redis whilest making it so that's what counts! 
+I mean, it's a weird concept that might not be useful at all, but I learned Redis whilst making it so that's what counts! 
 
 ## Installation
 
